@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Umpire Buddy</string>
+    <string name="action_settings">Settings</string>
+    <string name="BallCountValue">0</string>
+    <string name="StrikeCountValue">0</string>
+    <string name="BallCountLabel">Ball:</string>
+    <string name="StrikeCountLabel">Strike:</string>
+    <string name="StrikeButton">Strike</string>
+    <string name="BallButton">Ball</string>
+    <string name="AboutUB">About</string>
+    <string name="AboutText">Umpire Buddy by Alexander Mammele</string>
+    <string name="TotalCountLabel">Total Strikes:</string>
+    <string name="TotalCountValue">0</string>
+</resources>

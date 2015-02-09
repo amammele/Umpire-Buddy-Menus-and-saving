@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:paddingTop="20dp"
+    android:weightSum="1">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:layout_weight="0.19">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView android:id="@+id/StrikeCountLabel"
+                android:layout_height="wrap_content"
+                android:text="@string/StrikeCountLabel"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:textSize="24sp" />
+
+            <TextView android:id="@+id/StrikeCountValue"
+                android:layout_height="wrap_content"
+                android:text="@string/StrikeCountValue"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:paddingLeft="20dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <TextView android:id="@+id/BallCountLabel"
+                android:layout_height="wrap_content"
+                android:text="@string/BallCountLabel"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:textSize="24sp" />
+
+            <TextView android:id="@+id/BallCountValue"
+                android:layout_height="wrap_content"
+                android:text="@string/BallCountValue"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:paddingLeft="20dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="54dp">
+
+        <Button android:id="@+id/StrikeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/StrikeButton"
+            android:layout_gravity="center_horizontal">
+        </Button>
+
+        <Button android:id="@+id/BallButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/BallButton"
+            android:layout_gravity="center_horizontal">
+        </Button>
+    </LinearLayout>
+    <TextView android:id="@+id/TotalCountLabel"
+        android:layout_height="wrap_content"
+        android:text="@string/TotalCountLabel"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView android:id="@+id/TotalCountValue"
+        android:layout_height="wrap_content"
+        android:text="@string/TotalCountValue"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:paddingLeft="20dp"/>
+
+</LinearLayout>
